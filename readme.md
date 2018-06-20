@@ -2,9 +2,9 @@
 RESTful CRUD api under Laravel.
 
 ## Getting Started
-This package contain a CRUD RESTful api for the customer table. 
+This package contain a CRUD RESTful api for the customer table using URLs, HTTP verbs, and status code. REST is a simple way to perform and enable interactions between systems that have strength in recent years inspired by HTTP. 
 
-Use the JSON structure bellow to send customer informations to POST and PUT HTTP methods.
+Use the JSON structure bellow to send customer informations to POST and PUT HTTP verbs.
 ```sh
 {
   "email": "teste2@teste.com.br",
@@ -33,7 +33,7 @@ Use the JSON structure bellow to send customer informations to POST and PUT HTTP
 * HTTP DELETE /api/v1/Customer/{customerId} : return a message as a JSON
 ```
 ## Issues
-Open an [Issue](https://github.com/phcayres/ljasper/issues), or search for older on.
+Open an [Issue](https://github.com/phcayres/laravel-api/issues), or search for older on.
 
 ## Licence
 MIT
