@@ -4,7 +4,7 @@ RESTful CRUD api under Laravel.
 ## Getting Started
 This package contain a CRUD RESTful api for the customer table. 
 
-Use the JSON structure below to send customer informations to POST and PUT HTTP methods.
+Use the JSON structure bellow to send customer informations to POST and PUT HTTP methods.
 ```sh
 {
   "email": "teste2@teste.com.br",
