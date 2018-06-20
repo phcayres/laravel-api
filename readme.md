@@ -23,10 +23,9 @@ Use the JSON structure bellow to send customer informations to POST and PUT HTTP
 # HTTP POST
 ```sh
 * HTTP POST /api/v1/Customer with a customer JSON record: return a message as a JSON
-* HTTP POST /api/v1/Customer/auth
-  parameters:
-    email=phcayres@gmail.com
-    password=123456
+* HTTP POST /api/v1/Customer/auth with parameters bellow: return a message as a JSON
+      email=phcayres@gmail.com
+      password=123456
 ```
 # HTTP PUT
 ```sh
