@@ -2,7 +2,7 @@
 RESTful CRUD api under Laravel.
 
 ## Getting Started
-This package contain a CRUD RESTful api for the customer table using URLs, HTTP verbs, and status code. REST is a simple way to perform and enable interactions between systems that have strength in recent years inspired by HTTP. 
+This package contain a CRUD RESTful api to manager customer records in a database using URLs, HTTP verbs, and status code. REST is a simple way to perform and enable interactions between systems through HTTP verds. 
 
 Use the JSON structure bellow to send customer informations to POST and PUT HTTP verbs.
 ```sh
