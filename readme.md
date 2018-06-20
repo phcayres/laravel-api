@@ -17,20 +17,20 @@ Use the JSON structure bellow to send customer informations to POST and PUT HTTP
 ## Example request URIs
 # HTTP GET
 ```sh
-* HTTP GET /api/vi/Customer : return all customers as a JSON
-* HTTP GET /api/vi/Customer/{customerId} : return a customer by id as a JSON
+* HTTP GET /api/v1/Customer : return all customers as a JSON
+* HTTP GET /api/v1/Customer/{customerId} : return a customer by id as a JSON
 ```
 # HTTP POST
 ```sh
-* HTTP POST /api/vi/Customer with a customer JSON record: return a message as a JSON
+* HTTP POST /api/v1/Customer with a customer JSON record: return a message as a JSON
 ```
 # HTTP PUT
 ```sh
-* HTTP PUT /api/vi/Customer/{customerId} and a customer JSON record: return a message as a JSON
+* HTTP PUT /api/v1/Customer/{customerId} and a customer JSON record: return a message as a JSON
 ```
 # HTTP DELETE
 ```sh
-* HTTP DELETE /api/vi/Customer/{customerId} : return a message as a JSON
+* HTTP DELETE /api/v1/Customer/{customerId} : return a message as a JSON
 ```
 ## Issues
 Open an [Issue](https://github.com/phcayres/ljasper/issues), or search for older on.
